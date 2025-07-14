@@ -103,3 +103,7 @@ my_student = {
 }
 
 print(my_student)
+
+
+# accessing a value
+print(my_student["name"])
