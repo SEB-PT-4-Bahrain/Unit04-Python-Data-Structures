@@ -56,3 +56,33 @@ print(students)
 students.pop(3)
 
 print(students)
+
+print(students)
+
+
+# removes an element
+students.remove("Yusef")
+
+print(students)
+
+# clear(): clears my list
+students.clear()
+print(students)
+
+
+students.extend(["sayed","sayed","Sayed","Yusef","Israa"])
+
+students.remove("sayed")
+
+
+print(students)
+
+
+
+noSayeds = list(filter(lambda student : student.lower() != "sayed",students))
+
+print(noSayeds)
+
+
+for student in students:
+    print(f"{student} is doing great")
