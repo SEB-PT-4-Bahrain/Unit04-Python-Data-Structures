@@ -152,3 +152,42 @@ for key in my_student:
 colors = ("red","blue","green")
 
 print(colors)
+
+
+# 1 tupple
+eligebile_students = ("Sayed",)
+
+print(type(eligebile_students
+))
+
+
+
+for color in colors:
+    print(color)
+
+for index, color in enumerate(colors):
+    print(f"{index}:{color}")
+
+
+
+
+students = ["sayed","Yusef","Aisha","Israa","nooreen"]
+# slicing
+# [start,stop] (stop is not included)
+print(colors[1:3])
+
+print(students)
+
+# [start,stop,step]
+print(students[::-2])
+
+print(students)
+
+students[1:1] = ["NEW VALUE"]
+
+print(students)
+
+
+del students[1:3]
+
+print(students)
