@@ -86,3 +86,20 @@ print(noSayeds)
 
 for student in students:
     print(f"{student} is doing great")
+
+
+
+
+for index, student in enumerate(students):
+    print(f" {index}: {student}")
+
+print(list(enumerate(students)))
+
+
+
+my_student = {
+    "name":"Aisha",
+    "favorite_language":"Python"
+}
+
+print(my_student)
