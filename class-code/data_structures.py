@@ -142,3 +142,13 @@ for key, value in my_student.items():
 for key in my_student:
     print(f"{key}: {my_student[key]}")
 
+
+
+
+
+
+
+# tupples
+colors = ("red","blue","green")
+
+print(colors)
