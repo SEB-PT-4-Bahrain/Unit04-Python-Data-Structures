@@ -106,4 +106,39 @@ print(my_student)
 
 
 # accessing a value
-print(my_student["name"])
+print(my_student["favorite_language"])
+
+
+# changing a value
+my_student["name"] = "Mohammad"
+
+print(my_student)
+
+
+# add a new key value pair
+my_student["course"] = "Software Engineering"
+
+print(my_student)
+
+
+# removing key value pairs
+del my_student["course"]
+
+print(my_student)
+
+
+
+
+print(list(my_student.items()))
+
+
+
+# looping through a dictionary
+for key, value in my_student.items():
+    print(f"{key}-----> {value}")
+
+
+# only loops through the keys
+for key in my_student:
+    print(f"{key}: {my_student[key]}")
+
